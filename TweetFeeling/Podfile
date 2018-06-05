@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TweetFeeling' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TweetFeeling
+  pod 'TwitterKit'
+  pod 'OhhAuth'
+  pod 'ReachabilitySwift'
+  pod 'SwiftMessages'
+
+  target 'TweetFeelingTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TweetFeelingUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,19 @@
+//
+//  Localizable.strings
+//  TweetFeeling
+//
+//  Created by Samuel Furtado on 04/06/2018.
+//  Copyright © 2018 Samuel Furtado. All rights reserved.
+//
+
+// MARK - Login Screen
+"happy" = "Yeahh! Happy Tweet!";
+"neutral" = "Neutral Sentiment in this Tweet";
+"sad" = "It's a Sad Tweet";
+
+// MARK: - Error Handling
+"businessError" = "Business Error";
+"genericError" = "Something is wrong, try again late";
+"parseError" = "Problem with parse";
+"offlineMode" = "No Internet Connection";
+
